@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+
+/*
+Sophia Huskey
+Style Sheet
+06/26/22
+Fun for Fitness
+*/
+/*Main Styles*/
+
+html{
+  background-color: ivory;
+}
+
+h1{
+  text-align: center;
+  background-color: hsl(180, 75%, 82%);
+  padding: 30px;
+  border: solid;
+  border-color: black;
+}
+h2{
+  text-align: center;
+  background-color: hsl(120, 75%, 82%);
+  padding: 20px;
+  border: dashed;
+  border-color: black;
+}
+
+p{
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+
+image{
+  width:500px;
+  height:500px;
+}
+
+article{
+  background-color: hsl(180, 80%, 85%);
+}
+/* Table Styles*/
+
+table.Schedule{
+  background-color: ivory;
+  border: 10px outset rgb(25,25,112);
+  font-size: 0.75em;
+  width: 100%;
+  border-collapse: collapse;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th{
+  border: 1px solid gray;
+}
+
+td{
+  border: 5px solid lightblue;
+}
+
+/* Navigation Styles */
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-color: White;
+  border: 1px solid #555;
+}
+
+li{
+  text-align: center;
+  float: inherit;
+
+}
+
+li a{
+  display:block;
+  color: #000;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child{
+  border-bottom: none;
+}
+
+/*Change the link color on hover*/
+
+li a:hover{
+  background-color: lightblue;
+  color: white;
+}
